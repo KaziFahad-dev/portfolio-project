@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Common Style */
+
+.common-btn {
+    background-color: #FD6E0A;
+    color: white;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.outline-btn{
+    background-color:white;
+    color: #FD6E0A;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header section style */
+
+.hero-scetion-root{
+    background-color: #FFF8F3;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    margin: auto;
+    padding: 8px 0;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.logo-r {
+    color: #FD6E0A;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+    gap: 30px;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #474747;
+
+}
+
+/* Hero section style  */
+
+.parent-hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero-left h2 {
+    font-size: 85px;
+    color: #181818;
+}
+
+.hero-left-p-1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.hero-left-p-2{
+    font-size: 20px;
+    color: #757575;
+}
+
+.hero-left-btn-parent{
+    margin-top: 12px ;
+}
+
+/* About section start  */
+
+.about-parent{
+    background-color: #FFF8F3;
+    padding:100px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.about-title{
+    margin: 20px;
+}
+
+.about-description{
+    font-size: 20px;
+}
+
+.about-box{
+    display: flex;
+    justify-content:center;
+    gap: 62px;
+    margin-top: 20px;
+}
+
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+}
+
+.what-i-do-card-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.what-i-do-card-container .what-i-do-card{
+    border: 1px solid #d6a582;
+    padding: 10px;
+    border-radius: 5px;
+    text-align:left ;
+}
